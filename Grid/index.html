@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="GRID">
+    <title>GRID</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Um</div>
+        <div class="item2">Dois</div>
+        <div class="item3">Tres</div>
+        <div class="item4">Quatro</div>
+        <div class="item5">Cinco</div>
+        <div class="item6">Seis</div>
+        <div class="item7">Sete</div>
+        <div class="item8">Oito</div>
+        <div class="item9">Nove</div>
+        <div class="item10">Dez</div>
+    </div>
+</body>
+
+<style>
+    .container{
+        display: grid;
+        place-content: calc(100%);
+        grid-auto-flow:column;
+        gap: 30px 100px;
+        column-gap: 30px;
+        height: 400px;
+        width: 400px;
+        
+    }
+
+    .item1{
+        grid-row: 1;
+        grid-column: 1/3;
+        background-image: url(https://img.freepik.com/vetores-premium/coelhinha-e-a-borboleta_37741-655.jpg?size=626&ext=jpg&ga=GA1.2.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(98, 7, 218);
+        background-size: cover;
+        height: 1000px;
+        width: 1000px;
+ }
+
+    .item2{
+        grid-row: 2;
+        grid-column: 1/3;
+        background-image: url(https://img.freepik.com/vetores-premium/unicornio-fofo-sentado-na-grama-ilustracao-do-pequeno-sonhador_160313-123.jpg?size=626&ext=jpg&ga=GA1.2.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(89, 101, 141);
+        background-size: cover;
+        height: 900px;
+        width: 900px;
+
+    }
+    .item3{
+       
+        grid-row: 2;
+        grid-column: 2/3;
+        background-image: url(https://img.freepik.com/vetores-premium/girafa-bonitinha-com-efeito-aquarela_102385-373.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(219, 110, 161);
+        background-size: cover;
+        height: 900px;
+        width: 900px;
+    }
+    .item4{
+        
+        grid-row: 3;
+        grid-column: 1/2;
+        background-image: url(https://img.freepik.com/vetores-premium/coelho-bebe-fofo-com-floral_102385-305.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(212, 108, 60);
+        background-size: cover;
+        height: 750px;
+        width: 950px;
+        
+    }
+    
+    .item5{
+        
+        grid-row: 3;
+        grid-column: 2/3;
+        background-image: url(https://img.freepik.com/fotos-premium/elefante-indiano-decorado-elefante-lindo-em-tatuagens-e-desenhos-banner-de-ilustracao-da-web-generative-ai_889131-193.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(151, 121, 146);
+        background-size: cover;
+        height: 700px;
+        width: 1000px;
+    }
+   
+    .item6{
+        
+        grid-row: 4;
+        grid-column: 1/3;
+        background-image: url(https://img.freepik.com/vetores-gratis/pack-de-animais-fofos-exoticos_52683-17880.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(219, 110, 161);
+        background-size: cover;
+        height: 1000px;
+        width: 1000px;
+    }
+    
+    .item7{
+        
+        grid-row: 5;
+        grid-column: 1/1;
+        background-image: url(https://img.freepik.com/fotos-premium/conjunto-de-girafa-bonito-dos-desenhos-animados-em-uma-xicara-ilustracao-em-aquarela_61136-2430.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(121, 92, 72);
+        background-size: cover;
+        height: 1100px;
+        width: 800px;
+    }
+   
+    .item8{
+      
+        grid-row: 5;
+        grid-column: 2/3;
+        background-image: url(https://img.freepik.com/vetores-gratis/animal-fofo-pequena-preguica-voando-com-ilustracao-de-balao-personagem-de-preguica-aquarela-animal-fofo_90238-1174.jpg?size=626&ext=jpg&ga=GA1.2.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(158, 168, 184);
+        background-size: cover;
+        height: 1000px;
+        width: 900px;
+    }
+    
+    .item9{
+      
+        grid-row: 6;
+        grid-column: 1/3;
+        background-image: url(https://img.freepik.com/vetores-premium/animais-de-safari-fofos-em-aquarela-no-carro_375027-368.jpg?size=626&ext=jpg&ga=GA1.2.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(195, 214, 126);
+        background-size: cover;
+        height: 1000px;
+        width: 850px;
+    }
+    
+    .item10{
+       
+        grid-row: 6;
+        grid-column: 2/3;
+        background-image: url(https://img.freepik.com/vetores-premium/leao-de-safari-fofo-animal-aquarela-sentado-em-um-tronco_375027-1239.jpg?size=626&ext=jpg&ga=GA1.1.1724542266.1684192201&semt=ais);
+        text-align: center;
+        box-shadow: inset 10px 10px 13px 10px rgb(180, 0, 84);
+        background-size: cover;
+        height: 1000px;
+        width: 850px;
+     }
+</style>
+</html>
